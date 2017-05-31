@@ -6,8 +6,7 @@ using UnityEngine;
 //https://pixta.jp/channel/?p=15795
 
 namespace CameraController {
-	[RequireComponent(typeof(Camera)), DisallowMultipleComponent]
-
+	[RequireComponent(typeof(Camera)), DisallowMultipleComponent, AddComponentMenu("CameraController/CameraController")]
 	public class CameraController : MonoBehaviour {
 		
 		Vector3 staticRotation,  dynamicPosition, trackPosition, trackRotation;
